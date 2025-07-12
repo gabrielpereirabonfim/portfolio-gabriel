@@ -20,7 +20,7 @@ const About = () => {
             Sobre Mim
           </h2>
           
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="space-y-6">
               <p className="text-base text-gray-300 leading-relaxed">
                 Atuo em todo o ciclo de dados, da extração à visualização,
