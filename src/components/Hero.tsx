@@ -42,10 +42,16 @@ const Hero = () => {
         </p>
         
         <div className="flex gap-4 justify-center items-center mb-12">
-          <a href="#" className="p-3 border border-gray-600 rounded-lg hover:border-white hover:bg-white/10 transition-all duration-300 hover:scale-110">
+          <a href="https://github.com/gabrielpereirabonfim"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-3 border border-gray-600 rounded-lg hover:border-white hover:bg-white/10 transition-all duration-300 hover:scale-110">
             <Github className="w-6 h-6 text-white" />
           </a>
-          <a href="#" className="p-3 border border-gray-600 rounded-lg hover:border-white hover:bg-white/10 transition-all duration-300 hover:scale-110">
+          <a href="https://www.linkedin.com/in/gabrielpbonfim/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-3 border border-gray-600 rounded-lg hover:border-white hover:bg-white/10 transition-all duration-300 hover:scale-110">
             <Linkedin className="w-6 h-6 text-white" />
           </a>
         </div>

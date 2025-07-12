@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, Wallpaper, BookA } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -77,14 +77,21 @@ const Contact = () => {
             </div>
 
             <div className="flex gap-4 pt-8">
-              <a href="#" className="p-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300 hover:scale-110">
+              <a href="https://github.com/gabrielpereirabonfim"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300 hover:scale-110">
                 <Github className="w-6 h-6 text-gray-400 hover:text-white transition-colors duration-300" />
               </a>
-              <a href="#" className="p-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300 hover:scale-110">
+              <a href="https://www.linkedin.com/in/gabrielpbonfim/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300 hover:scale-110">
                 <Linkedin className="w-6 h-6 text-gray-400 hover:text-white transition-colors duration-300" />
               </a>
-              <a href="#" className="p-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300 hover:scale-110">
-                <Twitter className="w-6 h-6 text-gray-400 hover:text-white transition-colors duration-300" />
+              <a href="https://gabrielpbonfim.medium.com/" 
+                className="p-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300 hover:scale-110">
+                <BookA className="w-6 h-6 text-gray-400 hover:text-white transition-colors duration-300" />
               </a>
             </div>
           </div>
