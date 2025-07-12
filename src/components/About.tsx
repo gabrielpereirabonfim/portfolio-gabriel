@@ -1,15 +1,15 @@
 
 import React from 'react';
-import { Database, Cloud, Code, BarChart3, Server, Zap } from 'lucide-react';
+import { Database, Cloud, Code, BarChart3, Server, Zap, Fan, ShieldCheck } from 'lucide-react';
 
 const About = () => {
   const skills = [
     { icon: Database, name: 'SQL & NoSQL', level: 95 },
     { icon: Code, name: 'Python', level: 90 },
-    { icon: Zap, name: 'Apache Airflow', level: 90 },
-    { icon: BarChart3, name: 'Modelagem de Dados', level: 95 },
-    { icon: Server, name: 'Docker / K8s', level: 82 },
-    { icon: Zap, name: 'Apache Kafka', level: 80 },
+    { icon: Fan, name: 'Apache Airflow', level: 90 },
+    { icon: ShieldCheck, name: 'Data Quality', level: 85 },
+    { icon: Server, name: 'Docker / K8s', level: 80 },
+    { icon: BarChart3, name: 'Power BI', level: 90 },
   ];
 
   return (
@@ -34,7 +34,7 @@ const About = () => {
                 Pós-graduado em Inteligência Artificial e autor do livro Pensando em Python: Soluções Inteligentes para Seus Problemas.
               </p>
               <div className="flex flex-wrap gap-3">
-                {['Modelagem de Dados', 'ETL/ELT', 'Data Warehousing', 'Apache Airflow', 'Python'].map((tag) => (
+                {['Data Engineering', 'Data Integration', 'Data Modeling', 'Orchestration', 'ETL/ELT'].map((tag) => (
                   <span key={tag} className="px-4 py-2 bg-gray-800 text-gray-300 rounded-full text-sm hover:bg-gray-700 transition-colors duration-300">
                     {tag}
                   </span>
