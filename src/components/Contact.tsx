@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, Wallpaper, BookA } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, Wallpaper, BookA, FilePen } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -89,9 +89,11 @@ const Contact = () => {
                 className="p-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300 hover:scale-110">
                 <Linkedin className="w-6 h-6 text-gray-400 hover:text-white transition-colors duration-300" />
               </a>
-              <a href="https://gabrielpbonfim.medium.com/" 
+              <a href="https://gabrielpbonfim.medium.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-3 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300 hover:scale-110">
-                <BookA className="w-6 h-6 text-gray-400 hover:text-white transition-colors duration-300" />
+                <FilePen className="w-6 h-6 text-gray-400 hover:text-white transition-colors duration-300" />
               </a>
             </div>
           </div>
